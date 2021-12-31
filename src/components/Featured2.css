@@ -1,0 +1,133 @@
+.products2 {
+  width: 80%;
+  height: 350px;
+  /* background-color: brown; */
+  position: relative;
+  left: 120px;
+  display: flex;
+}
+.big {
+  width: 60%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+}
+.big-1{
+  width: 34%;
+  height: 100%;
+  background-color: cornsilk;
+}
+.big-2{
+  width: 34%;
+  height: 100%;
+  background-color: cornsilk;
+}
+.big-3{
+  width: 34%;
+  height: 100%;
+  background-color: cornsilk;
+}
+.small {
+  width: 40%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  /* background-color: rgb(187, 173, 173); */
+}
+.small div {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(112, 71, 71); */
+}
+.hr2 {
+  width: 10%;
+  border-color: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  top:60px;
+  left:40px;
+}
+
+.small-btn {
+  padding: 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  text-align: center;
+  position: relative;
+  top:60px;
+  left:40px;
+}
+.small-2 img{
+    height: 180px;
+    width: 140px;
+    position: relative;
+    top:60px;
+    left:40px;
+}
+.small-1 h3{
+    position: relative;
+    top:60px;
+    left:40px;
+}
+.big1-top{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(94, 94, 94);
+  height: 10%;
+  width: 100%;
+  /* background-color: rosybrown; */
+}
+.big-1 img{
+  height: 151px;
+  width: 200px;
+}
+.big-2 img{
+  height: 151px;
+  width: 200px;
+}
+.big-3 img{
+  height: 151px;
+  width: 200px;
+}
+.big img{
+  position: relative;
+  top:50px;
+  display: block;
+  margin: 0 auto;
+}
+.big2-top{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(94, 94, 94);
+  height: 10%;
+  width: 100%;
+}
+.big1-top .cart i{
+  /* color:red; */
+  margin-right: 3px;
+}
+.big2-top .cart i{
+  color:red;
+  margin-right: 3px;
+}
+.big3-top .cart i{
+  /* color:red; */
+  margin-right: 3px;
+}
+.big3-top{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(94, 94, 94);
+  height: 10%;
+  width: 100%;
+}
+.date{
+  /* background-color: rgb(192, 93, 93); */
+  width: 80%;
+}
+.cart{
+  /* background-color: rgb(192, 93, 93); */
+  width: 20%;
+}

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  pad: 0;
+}
+.head {
+  height: 397px;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.head h1 {
+  text-align: center;
+}
+.check div {
+  margin-right: 15px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+.check div input[type="checkbox"] {
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
+}
+.products {
+  width: 80%;
+  border: 1px solid rgb(243, 241, 241);
+  height: 300px;
+  border-width: 1px;
+  position: relative;
+  left: 120px;
+  display: flex;
+}
+.products div {
+  width: 20%;
+  height: 100%;
+  /* background-color: brown; */
+  text-align: center;
+  border-right: 1px solid rgb(243, 241, 241);
+}
+.products div:hover {
+  box-shadow: 2px 2px 8px 7px rgb(243, 241, 241),
+    2px 2px rgb(243, 241, 241) inset;
+}
+.products div .hr1 {
+  width: 10%;
+  border-color: black;
+  border-bottom: none;
+}
+
+.vans1 img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.products div h5 {
+  color: red;
+}
+.vans1 p,
+.hr1,
+h5 {
+  position: relative;
+  top: 70px;
+}
+.vans1 p {
+  color: black;
+}
+.vans1 .hr1 {
+  margin-bottom: 15px;
+  left: 95px;
+}
+/* vans2 */
+.vans2 img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.vans2 p,
+.hr1,
+h5 {
+  position: relative;
+  top: 70px;
+}
+.vans2 p {
+  color: black;
+}
+.vans2 .hr1 {
+  margin-bottom: 15px;
+  left: 95px;
+}
+/* vans3 */
+.vans3 img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.vans3 p,
+.hr1,
+h5 {
+  position: relative;
+  top: 70px;
+}
+.vans3 p {
+  color: black;
+}
+.vans3 .hr1 {
+  margin-bottom: 15px;
+  left: 95px;
+}
+/* vans4 */
+
+.vans4 img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.vans4 p,
+.hr1,
+h5 {
+  position: relative;
+  top: 70px;
+}
+.vans4 p {
+  color: black;
+}
+.vans4 .hr1 {
+  margin-bottom: 15px;
+  left: 95px;
+}
+/* vans5 */
+.vans5 img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.vans5 p,
+.hr1,
+h5 {
+  position: relative;
+  top: 70px;
+}
+.vans5 p {
+  color: black;
+}
+.vans5 .hr1 {
+  margin-bottom: 15px;
+  left: 95px;
+}
+@media screen and (max-width: 768px) {
+  .head h1 {
+    font-size: 20px;
+  }
+  .check p {
+    font-size: 10px;
+  }
+  .products {
+    width: 90%;
+    left: 40px;
+  }
+  .products div img {
+    height: 60px;
+    width: 60px;
+  }
+  .products div p {
+    font-size: 10px;
+  }
+  .products div .hr1 {
+    left: 60px;
+  }
+}

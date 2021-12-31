@@ -1,0 +1,21 @@
+.products1{
+    width: 80%;
+    height: 350px;
+    background-color: blanchedalmond;
+    position: relative;
+    left: 120px;
+}
+.pr-big{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.prbig-1{
+    height: 100%;
+    width: 50%;
+    background-color: saddlebrown;
+}
+.prbig-2{
+    width: 50%;
+    height: 100%;
+}

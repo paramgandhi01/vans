@@ -1,0 +1,213 @@
+.footer{
+    background-color: black;
+    height: 550px;
+    font-size: 16px;
+}
+.footer-flex{
+    /* background-color: red; */
+    width:75%;
+    height: 300px;
+    position: relative;
+    left:160px;
+    top:70px;
+    display: flex;
+    font-family:
+"Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+.footer-flex h4{
+    color: white;
+}
+.footer-flex li,p{
+    color:rgb(94, 94, 94);
+}
+    
+
+.footer-left{
+    /* background-color: rosybrown; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right:20px;
+    
+}
+.footer-left ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-left h4{
+    margin-bottom: 30px;
+}
+.footer-right{
+    /* background-color:olive; */
+    width: 30%;
+}
+.footer-right p{
+    margin-top: 30px;
+}
+
+.email-sub{
+    width: 40px;
+    background-color: red;
+    color: white;
+}
+.email-sub i{
+    position: relative;
+    top:5px;
+    left:13px;
+}
+.footer-right input[type=email]{
+    width: 200px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(94, 94, 94);
+    color: white;
+    /* text-align: center; */
+    font-size: 10px;
+}
+.footer-right input[type=email]:focus{
+    outline: none;
+}
+.footer-right-email{
+    display: flex;
+    margin-top: 30px;
+}
+.footer-hr{  
+    width: 73%;
+    position: relative;
+    top:70px;
+    left:160px;
+    border-top: 1px solid rgb(94, 94, 94);
+    border-bottom: none;
+}
+.footer-bottom{
+    width:75%;
+    height: 174px;
+    position: relative;
+    top:75px;
+    left:160px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fb-left{
+    margin-left: 15px;
+    color:rgb(94, 94, 94);
+}
+.fb-right{
+    margin-right: 15px;
+   display: flex;
+}
+.fb-right div{
+    height: 45px;
+    width:65px;
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+.fb-right div i{
+    position: relative;
+    top:9px;
+    font-size: 25px;
+    left: 15px;
+}
+.follow {
+display: flex;
+}
+.follow div{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(94, 94, 94);
+    margin-right: 5px;
+}
+.follow div i{
+    position: relative;
+    top:3px;
+    left:5px;
+    font-size: 15px;
+}
+@media screen and (max-width:1024px){
+    .footer-right input[type=email]{
+        width:150px;
+        padding:10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer-flex{
+        left:100px;
+        font-size: 10px;
+    }
+    .footer-hr{
+        left:100px;
+    }
+    .footer-bottom{
+        left:100px;
+    }
+    .footer-right input[type=email]{
+        width:100px;
+        padding:5px;
+        font-size: 5px;
+    }
+    .email-sub{
+        width: 25px;
+        background-color: red;
+        color: white;
+    }
+    .email-sub i{
+        position: relative;
+        top:2px;
+        left:8px;
+        font-size: 8px;
+    }
+    .fb-left{
+        font-size: 10px;
+    }
+    .follow div i{
+        top:5px;
+    }
+    .fb-right div{
+        height: 30px;
+        width:45px;
+    }
+    .fb-right div i{
+        top:5px;
+        font-size: 18px;
+        left: 10px;
+    }
+}
+@media screen and (max-width:320px){
+    .footer-flex{
+        height: 300px;
+        font-size: 10px;
+        flex-direction: column;  
+    }
+    .footer-left{  
+     font-size: 10px;
+     flex-direction: column;  
+    }
+    .footer-left div{
+        margin-bottom: 7px;
+    }
+    .footer-left h4{
+        margin-bottom: 15px;
+    }
+    .footer-right{
+        margin-top: 7px;
+        position: relative;
+        left:-20px;
+        /* background-color: blueviolet; */
+        width: 200px;
+    }
+    .footer-right p{
+        margin-top: 15px;
+    }
+    .footer{  
+        height: 700px;  
+        background-color: black;
+    }
+}
